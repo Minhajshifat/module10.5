@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hey i am home </h1>
+    <h4>my name is {{name}}</h4>
+    <h4>my id is {{id}}</h4>
+    <h4>my class is {{class}}</h4>
+    <h4>list is {{list}}</h4>
+    <h1>blog filter</h1>
+    <br>
+    <h3>filter length is {{list| length}}</h3>
+    <h3>filter add is {{id|add:"2"}}</h3>
+    <h3>filter capfirst is {{name|capfirst}}</h3>
+    <h3>filter center is {{name|center:"20"}}</h3>
+    <h3>filter cut is {{class|cut:" "}}</h3>
+    <h3>filter default {{empty|default:"Nothing"}}</h3>
+    <h3>filter divisibleby is {{id|divisibleby:"3"}}</h3>
+    <h3>filter First Filter is {{people|first}}</h3>
+    <h3>filter Last Filter is {{people|last}}</h3>
+    <h3>filter Lower Filter is {{info|lower}}</h3>
+    <h3>filter Upper Filter is {{info|upper}}</h3>
+    <h3>filter Title Filter is {{info|title}}</h3>
+    <h3>filter Random Filter is {{list|random}}</h3>
+    <h3>filter Slice Filter is {{list|slice:":1"}}</h3>
+    <h3>filter Truncatechars Filter is {{info|truncatechars:5}}</h3>
+
+</body>
+
+</html>
